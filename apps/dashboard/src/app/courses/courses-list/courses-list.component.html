@@ -1,0 +1,25 @@
+<mat-card>
+  <mat-card-content>
+    <mat-card-title>
+      Courses
+    </mat-card-title>
+    <mat-list>
+      <mat-list-item
+        *ngFor="let course of courses"
+        class="mat-list-option"
+        (click)="selected.emit(course)"
+      >
+        <span matLine>{{ course.title }}</span>
+        <button
+          *ngIf="!readonly"
+          mat-icon-button
+          type="button"
+          color="warn"
+          (click)="deleted.emit(course); $event.stopImmediatePropagation()"
+        >
+          <mat-icon>clear</mat-icon>
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>

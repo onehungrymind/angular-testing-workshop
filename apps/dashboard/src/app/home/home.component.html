@@ -1,0 +1,11 @@
+<div class="home-container">
+  <workshop-courses-list
+    [courses]="courses$ | async"
+    [readonly]="true"
+  ></workshop-courses-list>
+  <workshop-lessons-list
+    [lessons]="lessons$ | async"
+    [readonly]="true"
+  ></workshop-lessons-list>
+  <workshop-users-list [users]="users$ | async" [readonly]="true"></workshop-users-list>
+</div>

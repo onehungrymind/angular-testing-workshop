@@ -1,0 +1,65 @@
+{
+  "courses": [
+    {
+      "id": "a0cd326d-239c-4a4b-be02-54d7bf6bab75",
+      "title": "Chief Communications Facilitator",
+      "description": "Laudantium dolor corrupti et modi maxime optio."
+    },
+    {
+      "id": "118176f4-041d-4107-83f7-78e5a224148e",
+      "title": "Human Implementation Executive",
+      "description": "Perspiciatis enim harum similique."
+    },
+    {
+      "id": "c1c6b91b-8393-43bb-9aa5-8a388a8955b7",
+      "title": "Global Configuration Strategist",
+      "description": "Id accusamus et quis."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b795e176-5c67-44cb-8e89-3256f254e905",
+      "title": "Forward Accounts Manager",
+      "description": "Laboriosam ex et non.",
+      "course_id": "ee5b8150-fd47-4616-9d69-749a5d80221d"
+    },
+    {
+      "id": "ba41d32a-bfa5-4567-98dd-e1078dd89f9a",
+      "title": "Internal Interactions Strategist",
+      "description": "Ut sed sunt ducimus consequatur amet laudantium tenetur dolores.",
+      "course_id": "91fed70a-5501-42bb-a80d-eb4b1ce3871d"
+    },
+    {
+      "id": "2fad89ee-3a87-428b-b037-63ace9b96992",
+      "title": "Future Assurance Associate",
+      "description": "Expedita delectus sed quia nihil.",
+      "course_id": "4589c9a9-68ff-4e33-864d-227d1343b607"
+    }
+  ],
+  "users": [
+    {
+      "id": "190045f8-fba7-4c91-8e76-93d82abb2e97",
+      "title": "Direct Research Strategist",
+      "firstName": "Abagail",
+      "lastName": "Reynolds",
+      "email": "Kris.Marvin@hotmail.com",
+      "password": "1EOGYWznGmgcjiz"
+    },
+    {
+      "id": "654731f9-5fa4-4976-8300-c01326ce23be",
+      "title": "Global Tactics Agent",
+      "firstName": "Ryder",
+      "lastName": "Olson",
+      "email": "Minerva_Morar82@yahoo.com",
+      "password": "UWG1Md0ZgPn4wO9"
+    },
+    {
+      "id": "7bcab3fb-3409-442e-aa97-aea63708efe1",
+      "title": "Chief Configuration Technician",
+      "firstName": "Antonio",
+      "lastName": "Wisoky",
+      "email": "Elisha74@gmail.com",
+      "password": "zIj3Jrc4rOvs2Y2"
+    }
+  ]
+}

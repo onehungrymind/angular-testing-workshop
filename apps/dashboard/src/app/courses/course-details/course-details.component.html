@@ -1,0 +1,47 @@
+<mat-card>
+  <mat-card-title>
+    <span *ngIf="currentCourse.id; else elseBlock">
+      {{ originalTitle | titlecase }}
+    </span>
+    <ng-template #elseBlock>
+      Select Course
+    </ng-template>
+  </mat-card-title>
+  <form #form="ngForm" (submit)="saved.emit(currentCourse)">
+    <mat-card-content>
+      <mat-form-field class="full-width">
+        <input
+          matInput
+          placeholder="Enter a title"
+          [(ngModel)]="currentCourse.title"
+          type="input"
+          name="title"
+          required="true"
+        />
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <textarea
+          matInput
+          placeholder="Enter a description"
+          [(ngModel)]="currentCourse.description"
+          type="text"
+          name="description"
+          required="false"
+        ></textarea>
+      </mat-form-field>
+    </mat-card-content>
+    <mat-card-actions>
+      <button
+        [disabled]="form.invalid"
+        type="submit"
+        mat-button
+        color="primary"
+      >
+        Save
+      </button>
+      <button type="button" mat-button (click)="cancelled.emit()">
+        Cancel
+      </button>
+    </mat-card-actions>
+  </form>
+</mat-card>
